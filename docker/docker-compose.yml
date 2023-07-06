@@ -1,7 +1,7 @@
 version: "3"
 services:
   tails-server:
-    image: bobgopher/indy-tails-server:latest
+    image: 989259452539.dkr.ecr.us-west-2.amazonaws.com/wmg-indy-tails-server-yfnxbsp6m4qv:latest
     ports:
       - 6543:6543
     networks:
